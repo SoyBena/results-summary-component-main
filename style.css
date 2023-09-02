@@ -1,0 +1,102 @@
+p {
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+
+    background-color:rgb(248, 255, 255);
+
+    --radio: 20px
+}
+
+main {
+
+    display: flex;
+    background-color: white;
+    border-radius: var(--radio);
+
+    min-height: 60vh;
+    max-height: 60vh;
+    box-shadow: 0px 0px 32px 10px hsl(221, 100%, 96%);
+
+}
+
+.left-chart {
+    border-radius: var(--radio);
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    min-width: 25vw;
+    max-width: 25vw;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.right-chart {
+    border-radius: var(--radio);
+    min-width: 25vw;
+    max-width: 25vw;
+}
+
+.circle-container {
+
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+
+    min-width: 10vw;
+    min-height: 20vh;
+
+    margin-top: 25px;
+
+    text-align: center;
+
+}
+
+.text-container {
+    text-align:center;
+}
+
+#p-title {
+
+    color:white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#score-p {
+
+    font-size: 20px;
+    margin: -30px 100px 0 100px;
+    color:hsl(241, 100%, 89%);
+
+}
+#left-title {
+
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color :hsl(241, 100%, 89%);
+
+}
+
+#seventy-six {
+
+    margin-top: 30px;
+    color:white;
+    font-size:80px;
+    font-weight: 800;
+}
+
+#of-100 {
+    margin-top: -90px;
+    color :hsla(241, 100%, 89%, 70%);
+    font-weight: 700;
+    font-size: 15px;
+
+}
